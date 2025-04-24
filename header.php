@@ -57,7 +57,6 @@ if (session_status() === PHP_SESSION_NONE) {
     <a href="/index.php" class="brand">WriteIT</a>
     <nav>
     <?php if (isset($_SESSION['user_id']) && $_SESSION['role_id'] == 2): ?>
-        <!-- <span>Welcome, <?= htmlspecialchars($_SESSION['first_name']) ?>!</span> -->
         <a href="/index.php">Home</a>
             <a href="/profile.php">Profile</a>
             <a href="/logout.php">Logout</a>

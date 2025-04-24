@@ -9,7 +9,6 @@ if (!isset($_SESSION['user_id'])) {
 
 }
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $userId = $_SESSION['user_id'];
     $firstName = $_SESSION['first_name'];
